@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab-01: Космічний корабель — game loop</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="hud">steps/s: 0 | frames/s: 0 | frame time: 0.00 ms | mode: fixed</div>
+      <canvas id="game"></canvas>
+      <div id="help">
+        Керування: W/↑ — тяга, A/D або ←/→ — поворот, Пробіл — лазери. Режим
+        експерименту:
+        <code>?mode=fixed|blocking|interval|variable</code>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
